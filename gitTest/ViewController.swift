@@ -16,6 +16,7 @@ class ViewController: UIViewController {
     @IBAction func button1(_ sender: Any) {
         contatore = contatore + 1
         label1.text = "hai premuto \(contatore) volte"
+        label1.backgroundColor = .red
 }
 //incrementa un contatore e visualizza il messaggio relativo
     
