@@ -34,7 +34,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="128515" translatesAutoresizingMaskIntoConstraints="NO" id="bD5-9x-MfT">
-                                <rect key="frame" x="66" y="399" width="240" height="167"/>
+                                <rect key="frame" x="87" y="396" width="200" height="200"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
