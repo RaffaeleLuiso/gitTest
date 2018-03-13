@@ -4,7 +4,7 @@
 //
 //  Created by Raffaele Luiso on 13/03/18.
 //  Copyright © 2018 Raffaele Luiso. All rights reserved.
-// Ho fatto una modifica
+// Ho fatto una  bella modifica
 
 import UIKit
 
@@ -16,6 +16,7 @@ class ViewController: UIViewController {
     @IBAction func button1(_ sender: Any) {
         contatore = contatore + 1
         label1.text = "hai premuto \(contatore) volte"
+        label1.backgroundColor = .red
 }
 //incrementa un contatore e visualizza il messaggio relativo
     
