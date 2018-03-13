@@ -10,6 +10,14 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var label1: UILabel!
+    var contatore = 0
+    @IBAction func button1(_ sender: Any) {
+        contatore = contatore + 1
+        label1.text = "hai premuto \(contatore) volte"
+        
+    }
+   
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
