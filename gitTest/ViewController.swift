@@ -15,9 +15,9 @@ class ViewController: UIViewController {
     @IBAction func button1(_ sender: Any) {
         contatore = contatore + 1
         label1.text = "hai premuto \(contatore) volte"
-        
-    }
-   
+}
+//incrementa un contatore e visualizza il messaggio relativo
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
